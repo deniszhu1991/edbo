@@ -310,7 +310,7 @@ def variance(model, obj, **kwargs):
 
 # Expected Improvement (EI)
 
-def expected_improvement(model, obj, jitter=0.01):
+def expected_improvement(model, obj, jitter=0.05):
     """Compute expected improvement.
     
     EI attempts to balance exploration and exploitation by accounting
